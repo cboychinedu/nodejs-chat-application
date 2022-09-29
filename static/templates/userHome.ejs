@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="userHome.css">
+    <script src="../javascript/ajax-min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> User Name </title>
+</head>
+<body>
+    <!-- including the navigator-->
+    <%- include('user_navigator.ejs'); %> 
+
+
+
+    <div class="search-div">
+        <div>
+            <input type="search" name="" id="search-value" class="search" placeholder="Search Groups">
+            <input type="button" value="Search Groups" class="search-btn" id="search-btn" >
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content" id="modal-content">
+                <span class="close">&times;</span>
+
+                <div class="center-loader">
+                    <div id="loader"></div>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+        <div class="results-display-div" id="results-display-div">
+            <table id="display-table">
+                <tr>
+                    <td class="table-data" id="music">
+                        <h1 class="music" id="music"> Music </h1>
+                    </td>
+                    <td class="table-data" id="secrets">
+                        <h1 class="secrets" id="secrets"> Secrets </h1>
+                    </td>
+                    <td class="table-data" id="intelligence">
+                        <h1 class="intelligence" id="intelligence"> Intelligence </h1>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+
+    <!-- Including the footer -->
+    <%- include('footer.ejs'); %> 
+
+    <!-- Adding the javascript -->
+    <script src="../javascript/userHome.js"></script>
+</body>
+</html>

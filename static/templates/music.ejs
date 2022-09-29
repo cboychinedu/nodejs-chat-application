@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/music.css">
+    <script src="../javascript/ajax-min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Music Section </title>
+</head>
+<body>
+    <!-- Adding the navigator -->
+    <%- include('user_navigator.ejs'); %> 
+
+
+    <div class="chat-div">
+
+        <div class="user-section"></div>
+
+        <div class="message-section">
+            <div class="user-display-name">
+                <img src="../images/user.png" class="user-image" alt="" srcset="">
+
+                <p class="chat-para">
+                    Message Section
+                </p>
+            </div>
+            <div class="message-chat-display">
+
+                <ul id="messages" class="messages">
+                    <li class="user-one">
+                        Username: <span class="user-name-tag"> Bot </span> <br>
+                        <span class="messages-span"> Hello, welcome to the music channel, please follow the community
+                        guidelines <a href="#" style="text-decoration: none; color: #228322; font-size: 12px;"> link </a> </span>
+
+                    </li>
+                </ul>
+
+            </div>
+            <div class="message-input-div">
+                <input type="text" name="" placeholder="Write your message..." id="message" class="message">
+                <button type="submit" class="submit-btn-image" id="submit-btn-image">
+                    <img src="../images/send.png" alt="" class="send-image" srcset="">
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Including the footer -->
+    <%- include('footer.ejs'); %> 
+
+    <!-- Adding the javascript -->
+    <script src="../javascript/music.js"></script>
+    
+</body>
+</html>

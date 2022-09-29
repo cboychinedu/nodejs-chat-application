@@ -1,0 +1,161 @@
+* {
+    margin: 0px; 
+    padding: 0px; 
+    font-family: 'Poppins';
+}
+.password {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #d7d5d5;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #4a4a4a;
+}
+.email {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #d7d5d5;
+    padding-left: 15px;
+    font-size: 12px;
+    color: #4a4a4a;
+}
+.submit-btn {
+    height: 40px;
+    width: 146px;
+    border-radius: 5px;
+    color: white;
+    background-color: #c11e1e;
+    border: 1px solid #c33030;
+    font-weight: bold;
+}
+.main-div {
+    margin: auto;
+    width: 50%;
+    height: 504px;
+    display: grid;
+    border-radius: 8px;
+    margin-top: 200px;
+    box-shadow: 0px 0px 10px -5px;
+    border: 1px ridge #bbbbbb69;
+    justify-content: center;
+}
+.login-logo {
+    font-size: 44px;
+    padding-top: 69px;
+    padding-bottom: 0px;
+    height: 30px;
+    color: #b5b6b9; 
+}
+.main-nav {
+    height: 80px;
+    background-color: white;
+    border: 1px solid #ededed;
+    box-shadow: 0px -10px 51px -22px;
+}
+.inner-nav-div {
+    height: 80px;
+    margin: auto; 
+    width: 70%; 
+}
+.left-nav {
+    float: left;
+    height: 49px;
+    width: 479px;
+    padding-top: 27px;
+    display: flex;
+    justify-content: space-around;
+}
+.right-nav {
+    float: right;
+    height: 49px;
+    padding-top: 14px;
+    width: 279px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.inner-nav-div .left-nav a {
+    color: #585858;
+    font-size: 17px;
+    text-decoration: none;
+    transition: color 2s;
+}
+.inner-nav-div .left-nav a:hover {
+    color: #b90000; 
+}
+.inner-nav-div .right-nav a {
+    font-size: 17px; 
+    text-decoration: none;
+}
+.register, 
+.logout {
+    background-color: #c11e1e;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.login {
+    padding-top: 13px;
+    padding-left: 25px;
+    border-radius: 5px;
+    width: 63px;
+    padding-right: 20px;
+    border: 1px solid #898989;
+    color: #585858;
+}
+.notifications {
+    padding-top: 13px;
+    padding-left: 25px;
+    border-radius: 5px;
+    width: 105px;
+    padding-right: 20px;
+    border: 1px solid #898989;
+    color: #585858;
+}
+.main-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #7a1212;
+    margin-top: 482px;
+    color: white;
+    height: 290px;
+    padding-top: 90px;
+}
+.main-footer li {
+    list-style-type: none;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+.main-footer li a {
+    color: white; 
+    text-decoration: none;
+}
+.subscribe-email {
+    height: 39px;
+    padding-left: 12px;
+    color: #c5b8b8;
+    outline: 1px solid #972626; 
+    background-color: #831010;
+    border-radius: 5px;
+    border: 1px solid #6e5656;
+    width: 219px;
+    margin-top: 10px;
+}
+.subscribe-button {
+    width: 135px;
+    height: 42px;
+    margin-top: 9px;
+    border-radius: 5px;
+    border: none;
+    color: white; 
+    background-color: #6c0a0a;
+}
